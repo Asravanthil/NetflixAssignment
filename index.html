@@ -27,8 +27,8 @@
           <ul id="horizontal-list">
           
             <li ng-repeat="item in recommendations track by $index" class="container">
-              <img ng-src="{{item.img}}"  class="img">
               <div class="imgDiv">
+              <img ng-src="{{item.img}}"  class="img">
               <div class="middle">
                 <button ng-click='addToMylist(item)' class="btn">Add</button>
               </div>
